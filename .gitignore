@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+*.npz
+*.pkl
+*.caffemodel
+data/

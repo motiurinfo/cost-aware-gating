@@ -1,0 +1,7 @@
+config,protocol,pr_auc,fpr_at_r100,recall_r100,fpr_r100,q_r100,S_CPU_r100
+MobileNetV3Small@1.0 LR-SMOTE,frame-level 5-fold,1.0,0.0,1.0,0.082,0.168,5.169
+MobileNetV3Small@1.0 LR-SMOTE,group-level 5-fold,0.978,0.023,1.0,0.068,0.155,5.539
+MobileNetV3Small@1.0 LR-SMOTE,leave-one-station-out,0.817,0.8,0.793,0.161,0.22,4.077
+ResNet50@1.0 Focal-weighted,frame-level 5-fold,0.999,0.004,1.0,0.005,0.098,2.794
+ResNet50@1.0 Focal-weighted,group-level 5-fold,0.97,0.055,0.989,0.042,0.131,2.562
+ResNet50@1.0 Focal-weighted,leave-one-station-out,0.887,0.55,0.897,0.439,0.482,1.348

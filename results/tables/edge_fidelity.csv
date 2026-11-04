@@ -1,0 +1,7 @@
+method,ods_F,precision,recall,latency_ms,S_vs_HED,threshold
+"HED, full resolution (reference)",1.0,1.0,1.0,472.9759,1.0,
+Gated HED (MobileNetV3Small@1.0 LR-SMOTE),1.0,1.0,1.0,89.5014,5.5972,
+HED at 75% input size,0.7428,0.7647,0.7221,297.1565,1.4039,0.5
+HED at 50% input size,0.7605,0.9099,0.6532,172.5615,2.4175,0.6
+Canny,0.7803,0.8466,0.7237,0.1086,3840.2393,180.0
+Sobel magnitude,0.7576,0.8474,0.685,0.3915,1065.6225,0.35

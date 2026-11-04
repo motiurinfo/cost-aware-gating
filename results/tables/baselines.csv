@@ -1,0 +1,7 @@
+gate,head,recall,fpr,q,S_CPU,S_GPU,note,pr_auc
+Random / periodic sampling,-,1.0,1.0,1.0,1.0,1.0,full recall requires routing every frame,
+HOG,LR-weighted,0.9425,0.9298,0.931,1.0649,1.0649,,0.4611
+ImgStats,LR-weighted,0.9885,0.9619,0.9644,1.0319,1.0319,,0.1472
+MobileNetV3Small@1.0 (frozen),LR-SMOTE,1.0,0.0679,0.1553,5.5392,5.9237,best,0.9779
+EfficientNetB0@1.0 (frozen),Focal-weighted,1.0,0.0024,0.096,5.0621,8.6494,gpu_best,1.0
+ResNet50@1.0 (frozen),Focal-weighted,0.9885,0.0417,0.1305,2.5621,6.334,reference,0.9702

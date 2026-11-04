@@ -1,0 +1,4 @@
+config,mean,std,min,max
+EfficientNetB0@1.0 Focal-weighted,0.4088,0.1222,0.2153,0.5855
+MobileNetV3Small@1.0 LR-SMOTE,0.2549,0.2548,0.0,0.7879
+ResNet50@1.0 Focal-weighted,0.249,0.08,0.133,0.3788

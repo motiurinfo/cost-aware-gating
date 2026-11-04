@@ -1,0 +1,7 @@
+config,training,recall,missed,fpr,q
+MobileNetV3Small@1.0 LR-SMOTE,clean,0.7931,6,0.1607,0.2201
+MobileNetV3Small@1.0 LR-SMOTE,augmented,0.7931,6,0.1536,0.2136
+EfficientNetB0@1.0 Focal-weighted,clean,0.8621,4,0.05,0.1262
+EfficientNetB0@1.0 Focal-weighted,augmented,0.931,2,0.0929,0.1715
+ResNet50@1.0 Focal-weighted,clean,0.8966,3,0.4393,0.4822
+ResNet50@1.0 Focal-weighted,augmented,0.931,2,0.6357,0.6634

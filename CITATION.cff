@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Cost-aware gating of deep edge detection for highly imbalanced industrial welding video (code and evaluation artifacts)"
+authors:
+  - family-names: Uddin
+    given-names: Md. Aftab
+    orcid: "https://orcid.org/0009-0005-6347-5569"
+  - family-names: Rahman
+    given-names: Sheikh Shah Mohammad Motiur
+    orcid: "https://orcid.org/0000-0001-5278-5186"
+  - family-names: Gaber
+    given-names: Jaafar
+    orcid: "https://orcid.org/0000-0003-4356-6760"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-04"

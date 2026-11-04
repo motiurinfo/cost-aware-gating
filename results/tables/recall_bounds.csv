@@ -1,0 +1,10 @@
+config,role,seed,detected,joints,recall,cp_low,cp_high,one_sided_95_lower
+MobileNetV3Small@1.0 LR-SMOTE,best,0,29,29,1.0,0.8806,1.0,0.9019
+MobileNetV3Small@1.0 LR-SMOTE,best,1,29,29,1.0,0.8806,1.0,0.9019
+MobileNetV3Small@1.0 LR-SMOTE,best,2,29,29,1.0,0.8806,1.0,0.9019
+EfficientNetB0@1.0 Focal-weighted,gpu_best,0,29,29,1.0,0.8806,1.0,0.9019
+EfficientNetB0@1.0 Focal-weighted,gpu_best,1,29,29,1.0,0.8806,1.0,0.9019
+EfficientNetB0@1.0 Focal-weighted,gpu_best,2,29,29,1.0,0.8806,1.0,0.9019
+ResNet50@1.0 Focal-weighted,reference,0,28,29,0.9655,0.8224,0.9991,0.8466
+ResNet50@1.0 Focal-weighted,reference,1,29,29,1.0,0.8806,1.0,0.9019
+ResNet50@1.0 Focal-weighted,reference,2,29,29,1.0,0.8806,1.0,0.9019

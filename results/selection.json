@@ -1,0 +1,33 @@
+{
+  "best": [
+    "MobileNetV3Small",
+    1.0,
+    "LR-SMOTE"
+  ],
+  "reference": [
+    "ResNet50",
+    1.0,
+    "Focal-weighted"
+  ],
+  "gpu_best": [
+    "EfficientNetB0",
+    1.0,
+    "Focal-weighted"
+  ],
+  "most_accurate": [
+    "EfficientNetB0",
+    1.0,
+    "Focal-weighted"
+  ],
+  "hed_gpu_port": {
+    "ok": true,
+    "max_abs_diff": 3.2186508178710938e-06
+  },
+  "L_HED_gpu_s": 0.020310178100002456,
+  "friedman": {
+    "chi2": NaN,
+    "p": NaN,
+    "identical": true
+  },
+  "gating_output_identical_max_abs_diff": 0.0
+}

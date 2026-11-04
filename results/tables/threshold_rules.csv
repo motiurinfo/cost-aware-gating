@@ -1,0 +1,16 @@
+config,role,rule,recall_mean,recall_min,missed_mean,missed_max,fpr_mean,q_mean,conformal_bound_mean,S_CPU,S_GPU
+EfficientNetB0@1.0 Focal-weighted,gpu_best,fixed 0.5,1.0,1.0,0.0,0,0.0,0.0939,,5.118,8.8139
+EfficientNetB0@1.0 Focal-weighted,gpu_best,inner-CV + margin (ours),1.0,1.0,0.0,0,0.0024,0.096,,5.0621,8.6494
+EfficientNetB0@1.0 Focal-weighted,gpu_best,"inner-CV, no margin",0.9885,0.9655,0.3333,1,0.0024,0.0949,,5.0899,8.7309
+EfficientNetB0@1.0 Focal-weighted,gpu_best,"inner-CV, r*=95%",1.0,1.0,0.0,0,0.0024,0.096,,5.0621,8.6494
+EfficientNetB0@1.0 Focal-weighted,gpu_best,split-conformal,0.7816,0.7241,6.3333,8,0.0,0.0734,0.833,5.7178,10.7572
+MobileNetV3Small@1.0 LR-SMOTE,best,fixed 0.5,0.954,0.8966,1.3333,3,0.0167,0.1046,,7.7023,8.4665
+MobileNetV3Small@1.0 LR-SMOTE,best,inner-CV + margin (ours),1.0,1.0,0.0,0,0.0679,0.1553,,5.5392,5.9237
+MobileNetV3Small@1.0 LR-SMOTE,best,"inner-CV, no margin",1.0,1.0,0.0,0,0.0667,0.1543,,5.5725,5.9618
+MobileNetV3Small@1.0 LR-SMOTE,best,"inner-CV, r*=95%",0.954,0.8966,1.3333,3,0.0429,0.1284,,6.512,7.05
+MobileNetV3Small@1.0 LR-SMOTE,best,split-conformal,0.8391,0.8276,4.6667,5,0.0071,0.0852,0.833,9.0569,10.1322
+ResNet50@1.0 Focal-weighted,reference,fixed 0.5,0.8966,0.8966,3.0,3,0.0131,0.096,,2.8106,8.1065
+ResNet50@1.0 Focal-weighted,reference,inner-CV + margin (ours),0.9885,0.9655,0.3333,1,0.0417,0.1305,,2.5621,6.334
+ResNet50@1.0 Focal-weighted,reference,"inner-CV, no margin",0.9885,0.9655,0.3333,1,0.0393,0.1284,,2.5763,6.4218
+ResNet50@1.0 Focal-weighted,reference,"inner-CV, r*=95%",0.9885,0.9655,0.3333,1,0.0286,0.1187,,2.6424,6.8488
+ResNet50@1.0 Focal-weighted,reference,split-conformal,0.8391,0.7931,4.6667,6,0.0048,0.0831,0.833,2.9168,9.0569

@@ -1,0 +1,7 @@
+threshold,tau,split,recall,FP,fpr,q
+fixed 0.35,0.35,validation,1.0,62,0.8052,0.8235
+fixed 0.35,0.35,test,1.0,1,0.1,0.1818
+fixed 0.5,0.5,validation,1.0,10,0.1299,0.2118
+fixed 0.5,0.5,test,1.0,0,0.0,0.0909
+validation-selected,0.6369,validation,1.0,0,0.0,0.0941
+validation-selected,0.6369,test,1.0,0,0.0,0.0909

@@ -1,0 +1,17 @@
+component,setting,value
+Input,Frame size (height x width),"300 x 146 px, RGB; half-size gates: 150 x 73 px"
+Backbones,Weights / pooling,"ImageNet, frozen, global average pooling"
+All heads,Training data,training-fold frames + their horizontal mirror images; features standardized (z-score) on the training fold
+LR,Model,"L2-regularized logistic regression, C = 1.0, solver L-BFGS, max. 5000 iterations"
+Weighted LR,Class weights,inverse class frequency (n / (2 n_c))
+LR + SMOTE,Oversampling,"SMOTE, k = 5 nearest neighbours, in the standardized feature space after mirroring, until both classes are equal in size"
+Weighted focal,Loss / optimizer,"weighted binary focal loss, gamma = 2.0, alpha = 0.25, inverse-frequency class weights, L2 = 0.001; full-batch L-BFGS-B (max. 500 iterations), zero initialization; no learning rate or batch size"
+One-class Mahalanobis,Model,"PCA to 32 components + Ledoit-Wolf covariance, background frames only"
+One-class kNN,Model,mean cosine distance to k = 5 nearest background frames
+HOG gate,Features,"grayscale at half size, 9 orientations, 8 x 8 px cells, 2 x 2 cell blocks"
+ImgStats gate,Features,"32-bin intensity histogram, Canny (50/150) edge density and mean Sobel magnitude on an 8 x 4 grid"
+Evaluation,Cross-validation,"stratified recording-grouped 5-fold, 3 repetitions (seeds [0, 1, 2])"
+Threshold,Selection,"inner recording-grouped 3-fold CV inside each training fold, recall target 100%, margin to next lower background score"
+Nested selection,Inner CV,"4-fold recording-grouped CV inside each outer training fold, 60 candidates"
+Bootstrap,Resamples,"2000, resampling recordings"
+Latency,Protocol,"batch 1, 5 warm-up calls, 50 timed calls per gate, 20 per HED"

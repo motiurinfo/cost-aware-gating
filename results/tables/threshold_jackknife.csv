@@ -1,0 +1,3 @@
+config,role,n_jackknife,median_abs_tau_change,max_abs_tau_change,missed_with_full_tau,missed_worst_jackknife_tau,share_jack_tau_missing_any
+MobileNetV3Small@1.0 LR-SMOTE,best,116,0.3154,0.8149,0,4,0.3534
+EfficientNetB0@1.0 Focal-weighted,gpu_best,116,0.0695,0.2502,0,0,0.0

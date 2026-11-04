@@ -1,0 +1,5 @@
+rule,estimate,recall,fpr,q,S
+CPU,apparent (selected on the same CV),1.0,0.0679,0.1553,5.5392
+CPU,nested (unbiased),0.9885,0.0107,0.1025,6.6238
+GPU,apparent (selected on the same CV),1.0,0.0024,0.096,8.6494
+GPU,nested (unbiased),0.9885,0.0036,0.096,8.4682

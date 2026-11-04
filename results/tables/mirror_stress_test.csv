@@ -1,0 +1,3 @@
+config,flip_augmentation,recall_r100,fpr_r100,recall_mirrored,fpr_mirrored
+MobileNetV3Small@1.0 LR-SMOTE,True,1.0,0.068,0.966,0.148
+MobileNetV3Small@1.0 LR-SMOTE,False,0.977,0.018,0.885,0.152

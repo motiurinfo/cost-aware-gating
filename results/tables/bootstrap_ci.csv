@@ -1,0 +1,19 @@
+config,role,metric,point,ci_low,ci_high
+MobileNetV3Small@1.0 LR-SMOTE,best,recall,1.0,1.0,1.0
+MobileNetV3Small@1.0 LR-SMOTE,best,fpr,0.0679,0.0194,0.1887
+MobileNetV3Small@1.0 LR-SMOTE,best,q,0.1553,0.075,0.3727
+MobileNetV3Small@1.0 LR-SMOTE,best,pr_auc,0.9779,0.9386,1.0
+MobileNetV3Small@1.0 LR-SMOTE,best,S_CPU,5.5392,2.6242,10.4701
+MobileNetV3Small@1.0 LR-SMOTE,best,S_GPU,5.9237,2.7115,12.0631
+EfficientNetB0@1.0 Focal-weighted,gpu_best,recall,1.0,1.0,1.0
+EfficientNetB0@1.0 Focal-weighted,gpu_best,fpr,0.0024,0.0,0.0136
+EfficientNetB0@1.0 Focal-weighted,gpu_best,q,0.096,0.0437,0.2745
+EfficientNetB0@1.0 Focal-weighted,gpu_best,pr_auc,1.0,1.0,1.0
+EfficientNetB0@1.0 Focal-weighted,gpu_best,S_CPU,5.0621,2.6595,6.8853
+EfficientNetB0@1.0 Focal-weighted,gpu_best,S_GPU,8.6494,3.4006,15.7975
+ResNet50@1.0 Focal-weighted,reference,recall,0.9885,0.96,1.0
+ResNet50@1.0 Focal-weighted,reference,fpr,0.0417,0.004,0.1341
+ResNet50@1.0 Focal-weighted,reference,q,0.1305,0.0598,0.3227
+ResNet50@1.0 Focal-weighted,reference,pr_auc,0.9702,0.9203,1.0
+ResNet50@1.0 Focal-weighted,reference,S_CPU,2.5621,1.7178,3.1302
+ResNet50@1.0 Focal-weighted,reference,S_GPU,6.334,2.8608,11.5152

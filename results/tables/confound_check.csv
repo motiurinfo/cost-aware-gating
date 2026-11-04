@@ -1,0 +1,7 @@
+model,subset,frames,joints,pr_auc,fpr_at_r100,recall,fpr
+MobileNetV3Small@1.0 LR-SMOTE,all frames,309,29,0.9662,0.0393,1.0,0.0929
+MobileNetV3Small@1.0 LR-SMOTE,stations with both classes,288,10,0.9909,0.0036,1.0,0.0935
+ResNet50@1.0 Focal-weighted,all frames,309,29,0.9548,0.1143,0.9655,0.0357
+ResNet50@1.0 Focal-weighted,stations with both classes,288,10,0.9375,0.0216,1.0,0.036
+station-only baseline,all frames,309,29,0.6864,0.9929,,
+station-only baseline,stations with both classes,288,10,0.0205,1.0,,

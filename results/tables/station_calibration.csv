@@ -1,0 +1,55 @@
+station,variant,test_joints,detected,test_background,false_pos,recall,fpr,config,role
+01,A: source threshold,48,48,1735,143,1.0,0.0824,MobileNetV3Small@1.0 LR-SMOTE,best
+01,B: threshold calibrated on station,48,48,1735,143,1.0,0.0824,MobileNetV3Small@1.0 LR-SMOTE,best
+01,C: head + threshold updated,48,48,1735,73,1.0,0.0421,MobileNetV3Small@1.0 LR-SMOTE,best
+02,A: source threshold,59,59,682,268,1.0,0.393,MobileNetV3Small@1.0 LR-SMOTE,best
+02,B: threshold calibrated on station,59,59,682,268,1.0,0.393,MobileNetV3Small@1.0 LR-SMOTE,best
+02,C: head + threshold updated,59,59,682,1,1.0,0.0015,MobileNetV3Small@1.0 LR-SMOTE,best
+05,A: source threshold,60,28,0,0,0.4667,,MobileNetV3Small@1.0 LR-SMOTE,best
+05,B: threshold calibrated on station,60,43,0,0,0.7167,,MobileNetV3Small@1.0 LR-SMOTE,best
+05,C: head + threshold updated,60,58,0,0,0.9667,,MobileNetV3Small@1.0 LR-SMOTE,best
+06,A: source threshold,80,64,0,0,0.8,,MobileNetV3Small@1.0 LR-SMOTE,best
+06,B: threshold calibrated on station,80,64,0,0,0.8,,MobileNetV3Small@1.0 LR-SMOTE,best
+06,C: head + threshold updated,80,73,0,0,0.9125,,MobileNetV3Small@1.0 LR-SMOTE,best
+08,A: source threshold,80,56,0,0,0.7,,MobileNetV3Small@1.0 LR-SMOTE,best
+08,B: threshold calibrated on station,80,63,0,0,0.7875,,MobileNetV3Small@1.0 LR-SMOTE,best
+08,C: head + threshold updated,80,64,0,0,0.8,,MobileNetV3Small@1.0 LR-SMOTE,best
+all,A: source threshold,327,255,2417,411,0.7798,0.17,MobileNetV3Small@1.0 LR-SMOTE,best
+all,B: threshold calibrated on station,327,277,2417,411,0.8471,0.17,MobileNetV3Small@1.0 LR-SMOTE,best
+all,C: head + threshold updated,327,302,2417,74,0.9235,0.0306,MobileNetV3Small@1.0 LR-SMOTE,best
+01,A: source threshold,48,48,1735,56,1.0,0.0323,EfficientNetB0@1.0 Focal-weighted,gpu_best
+01,B: threshold calibrated on station,48,48,1735,56,1.0,0.0323,EfficientNetB0@1.0 Focal-weighted,gpu_best
+01,C: head + threshold updated,48,48,1735,10,1.0,0.0058,EfficientNetB0@1.0 Focal-weighted,gpu_best
+02,A: source threshold,59,59,682,75,1.0,0.11,EfficientNetB0@1.0 Focal-weighted,gpu_best
+02,B: threshold calibrated on station,59,59,682,75,1.0,0.11,EfficientNetB0@1.0 Focal-weighted,gpu_best
+02,C: head + threshold updated,59,59,682,0,1.0,0.0,EfficientNetB0@1.0 Focal-weighted,gpu_best
+05,A: source threshold,60,47,0,0,0.7833,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+05,B: threshold calibrated on station,60,47,0,0,0.7833,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+05,C: head + threshold updated,60,57,0,0,0.95,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+06,A: source threshold,80,64,0,0,0.8,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+06,B: threshold calibrated on station,80,64,0,0,0.8,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+06,C: head + threshold updated,80,80,0,0,1.0,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+08,A: source threshold,80,53,0,0,0.6625,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+08,B: threshold calibrated on station,80,61,0,0,0.7625,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+08,C: head + threshold updated,80,76,0,0,0.95,,EfficientNetB0@1.0 Focal-weighted,gpu_best
+all,A: source threshold,327,271,2417,131,0.8287,0.0542,EfficientNetB0@1.0 Focal-weighted,gpu_best
+all,B: threshold calibrated on station,327,279,2417,131,0.8532,0.0542,EfficientNetB0@1.0 Focal-weighted,gpu_best
+all,C: head + threshold updated,327,320,2417,10,0.9786,0.0041,EfficientNetB0@1.0 Focal-weighted,gpu_best
+01,A: source threshold,48,48,1735,1101,1.0,0.6346,ResNet50@1.0 Focal-weighted,reference
+01,B: threshold calibrated on station,48,48,1735,1101,1.0,0.6346,ResNet50@1.0 Focal-weighted,reference
+01,C: head + threshold updated,48,48,1735,155,1.0,0.0893,ResNet50@1.0 Focal-weighted,reference
+02,A: source threshold,59,59,682,33,1.0,0.0484,ResNet50@1.0 Focal-weighted,reference
+02,B: threshold calibrated on station,59,59,682,33,1.0,0.0484,ResNet50@1.0 Focal-weighted,reference
+02,C: head + threshold updated,59,59,682,12,1.0,0.0176,ResNet50@1.0 Focal-weighted,reference
+05,A: source threshold,60,23,0,0,0.3833,,ResNet50@1.0 Focal-weighted,reference
+05,B: threshold calibrated on station,60,38,0,0,0.6333,,ResNet50@1.0 Focal-weighted,reference
+05,C: head + threshold updated,60,60,0,0,1.0,,ResNet50@1.0 Focal-weighted,reference
+06,A: source threshold,80,80,0,0,1.0,,ResNet50@1.0 Focal-weighted,reference
+06,B: threshold calibrated on station,80,80,0,0,1.0,,ResNet50@1.0 Focal-weighted,reference
+06,C: head + threshold updated,80,77,0,0,0.9625,,ResNet50@1.0 Focal-weighted,reference
+08,A: source threshold,80,80,0,0,1.0,,ResNet50@1.0 Focal-weighted,reference
+08,B: threshold calibrated on station,80,80,0,0,1.0,,ResNet50@1.0 Focal-weighted,reference
+08,C: head + threshold updated,80,80,0,0,1.0,,ResNet50@1.0 Focal-weighted,reference
+all,A: source threshold,327,290,2417,1134,0.8869,0.4692,ResNet50@1.0 Focal-weighted,reference
+all,B: threshold calibrated on station,327,305,2417,1134,0.9327,0.4692,ResNet50@1.0 Focal-weighted,reference
+all,C: head + threshold updated,327,324,2417,167,0.9908,0.0691,ResNet50@1.0 Focal-weighted,reference
